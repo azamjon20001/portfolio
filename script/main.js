@@ -2,14 +2,15 @@
 
 const menuButton = document.querySelector("#menu-button");
 const menuWrapper = document.querySelector(".menu-wrapper");
+const body = document.querySelector("#body");
+const burgerText = document.querySelector(".menu-wrapper-ul__li");
 
 menuButton.addEventListener('click',function(){
 	menuButton.classList.toggle('closse');
-	
-	menuWrapper.classList.toggle("shov")
+	body.classList.toggle("no_scroll");
+	menuWrapper.classList.toggle("shov");
+	burgerText.classList.add("burger-text");
 })
-
-
 
 const colorDeveloperText = document.querySelector(".hero-section-bottom__title-right");
 
@@ -35,4 +36,6 @@ window.addEventListener('load',()=>{
 		colorDeveloperText2.style.color ='#fff'
 	}, 5500);
 })
+
+
 
