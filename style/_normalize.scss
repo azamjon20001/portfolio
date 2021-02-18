@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Newsreader';
+    src: url('../fonts/Newsreader-Light.eot');
+    src: url('Newsreader-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Newsreader-Light.woff') format('woff'),
+        url('../fonts/Newsreader-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Newsreader';
+    src: url('../fonts/Newsreader-Bold.eot');
+    src: url('../fonts/Newsreader-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Newsreader-Bold.woff') format('woff'),
+        url('../fonts/Newsreader-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Newsreader';
+    src: url('../fonts/Newsreader-Regular.eot');
+    src: url('../fonts/Newsreader-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Newsreader-Regular.woff') format('woff'),
+        url('../fonts/Newsreader-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Newsreader';
+    src: url('../fonts/Newsreader-Medium.eot');
+    src: url('../fonts/Newsreader-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Newsreader-Medium.woff') format('woff'),
+        url('../fonts/Newsreader-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Newsreader 16pt';
+    src: url('../fonts/Newsreader16pt-Regular.eot');
+    src: url('../fonts/Newsreader16pt-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Newsreader16pt-Regular.woff') format('woff'),
+        url('../fonts/Newsreader16pt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
