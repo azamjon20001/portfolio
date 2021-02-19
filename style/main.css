@@ -232,6 +232,10 @@ p {
   background-color: #1e1f27;
   color: #fff;
   padding: 20px 5px;
+  height: 100vh;
+}
+.header.header-none {
+  display: none;
 }
 .header-nav {
   display: flex;
@@ -570,4 +574,19 @@ p {
   50%, 60%, 70%, 90% {
     height: 100%;
   }
+}
+.section2 {
+  width: 0;
+  height: 0;
+  background: #fff;
+  position: relative;
+  z-index: -20;
+  transition: all 2s ease-in-out;
+}
+.section2.section2-active {
+  position: relative;
+  z-index: 40;
+  width: 100%;
+  height: 100vh;
+  background: #01fe87;
 }/*# sourceMappingURL=main.css.map */

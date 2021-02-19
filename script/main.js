@@ -39,3 +39,13 @@ window.addEventListener('load',()=>{
 
 
 
+const section2 =document.querySelector(".section2");
+const porfolio = document.querySelector(".portfolio");
+const header = document.querySelector(".header");
+
+porfolio.addEventListener('click',function(e){
+	e.preventDefault();
+
+	header.classList.add('header-none');
+	section2.classList.add('section2-active');
+})
